@@ -4,79 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>웹 UI3</title>
-    <style>
-        body {
-            margin: 0;
-            padding : 0;
-        }
-        header {
-            width: 100%;
-            height: 50px;
-        }
-        #main {
-            width: 100%;
-            height: 1136px;
-            text-align: center;
-        }
-        #main hr {
-            margin-bottom: 30px;
-        }
-        #main .member_box {
-            width: 800px;
-            height: 500px;
-            border: 2px solid black;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        #main .member_box .hint {
-            width: 300px;
-            float: left;
-        }
-        #main .member_box .su {
-            clear: both;
-            width: 300px;
-            float: left;
-        }
-        input[type="text"] {
-            width: 200px;
-            height: 30px;
-            margin-bottom: 20px;
-            float: left;
-        }
-        input[type="password"] {
-            width: 200px;
-            height: 30px;
-            margin-bottom: 30px;
-            float: left;
-        }
-        input[type="submit"] {
-            width: 210px;
-            height: 30px;
-            border: 0px;
-            margin-top: 20px;
-            text-align: center;
-            background:chartreuse;
-            float: left;
-        }
-        footer {
-            width: 100%;
-            height: 50px;
-        }
-    </style>
+    <title>회원가입 1</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <header>
-        헤더
+        개발자 : 길재혁
     </header>
     <section id="main">
         <div class="member_box">
-            <h2>회원가입</h2>
+            <h1>회원가입</h1>
             <hr>
             <form method="post" action="#">
                 <div class="hint">아이디 :</div><input type="text" class="id" placeholder="아이디"/>
                 <div class="hint">이름 :</div><input type="text" class="name" placeholder="이름"/>
                 <div class="hint">비밀번호 :</div><input type="password" class="pw" placeholder="비밀번호"/>
+                <div class="hint">핸드폰번호 :</div><input type="text" class="phone" placeholder="ex)010-0000-0000"/>
                 <div class="hint">주소 :</div><input type="text" class="address" placeholder="주소"/>
                 <div class="su">
                     <input type="submit"/>
@@ -85,7 +28,7 @@
         </div>
     </section>
     <footer>
-        푸터
+        instagram @dev.JaeHyeok
     </footer>
 </body>
 </html>
