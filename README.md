@@ -1,2 +1,3 @@
-# UI
-Web + App UI 디자인 모음집
+# UI/UX
+Web + App + Pigma
+디자인/퍼블리싱 모음집
